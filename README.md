@@ -27,4 +27,11 @@ agentAliasId - alias of the agent
 sessionId - unique id of the session
 enableTrace - specify whether to turn on trace agent's reasoning process or not
 inputText - prompt text to be sent to the agent
+
+Additional Reference Videos
+Creating Knowledge Base
+https://www.loom.com/share/9add77ab11ef41ac9f719c629b68cfd2?sid=5db617ec-9e2e-4748-b6ed-03f767af8814
+
+Creating AI Agents
+https://www.loom.com/share/59ac056191504152be3a803d71b8e5dd?sid=1da5cd4a-1a59-49a4-8b06-28f339877fb5
 ```
