@@ -6,8 +6,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-about_knowledge_base = os.getenv("ABOUT_KNOWLEDGE_BASE")
-
 
 def init_state():
     st.session_state.session_id = str(uuid.uuid4())
