@@ -14,8 +14,8 @@ def init_state():
 
 
 # STREAMLIT UI
-st.set_page_config(page_title="Metis RAG", layout="centered")
-st.title("Metis Conversational AI")
+st.set_page_config(page_title="Metis RAG", layout="wide")
+st.title("Metis :: Conversational AI")
 st.write("Enter your query below:")
 
 if not st.session_state.items():
@@ -40,6 +40,7 @@ if promptText := st.chat_input():
         placeholder = st.empty()
         placeholder.markdown("...")
         response = bedrock_agent.invoke_agent(promptText, st.session_state.session_id)
+
         output_text = response["output_text"]
 
         placeholder.markdown(output_text, unsafe_allow_html=True)
